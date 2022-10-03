@@ -69,6 +69,7 @@ color: #424242;
 
     .city{
 padding-left: 24px;
+padding-right: 172px;
 padding-top: 17px;
 width: 43px;
 height: 17px;
@@ -81,7 +82,7 @@ font-size: 14px;
 line-height: 17px;
 display: flex;
 align-items: center;
-color: #BDBDBD;
+color: #E8E8E8;
 box-sizing: border-box;
 width: 520px;
 height: 50px;
