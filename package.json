@@ -1,0 +1,26 @@
+{
+  "name": "fe39-onl-hobbyart",
+  "version": "1.0.0",
+  "source": "src/Hobby.html",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikaVolkova/FE39-onl-Hobbyart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikaVolkova/FE39-onl-Hobbyart/issues"
+  },
+  "homepage": "https://github.com/NikaVolkova/FE39-onl-Hobbyart#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0",
+    "sass": "^1.55.0"
+  }
+}

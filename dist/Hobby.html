@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobby</title>
+    <link rel="stylesheet" type="text/css" href="/Hobby.38ec9247.css">
+</head>
+<body>
+    <div class="wrapper">
+        
+        <div class="flex">
+            <form action="action_page.php">
+                <fieldset class="action-form_wrap">
+                  <h1>Способ получения</h1>
+
+                  <label for="city"></label>
+                  <input name="city" class="city" placeholder="Город*" id="city">
+                  
+                  <div class="datalist-holder">
+                    <input list="delivery-method" style="border: 0" placeholder="Способ доставки*" name="delivery-method" class="datalist-input">
+                    <datalist id="delivery-method">
+                        <option value="Belarus post">
+                        </option><option value="pickup">
+                        </option><option value="Express delivery">
+                     </option></datalist>
+                 </div>
+                 <label for="street"></label>
+                 <input name="street" class="street" placeholder="Улица*" id="street">
+                 <label for="house"></label>
+                 <input name="house" class="house" placeholder="Дом*" id="house">
+                 <label for="flat"></label>
+                 <input name="flat" class="flat" placeholder="Квартира*" id="flat">
+                 <label for="index"></label>
+                 <input name="index" class="index" placeholder="индекс*" id="index">
+                 <label for="comment"></label>
+                  <textarea name="comment" class="comment" placeholder="Комментарий*" id="comment"></textarea>
+                  
+                  <h1>Данные получателя</h1>
+
+                  <label for="surname"></label>
+                  <input type="text" class="surname" placeholder="Фамилия*" name="surname" required="">
+
+                  <label for="name"></label>
+                  <input type="text" class="name" placeholder="Имя*" name="name" required="">
+
+                  <label for="patronymic"></label>
+                  <input type="text" class="patronymic" placeholder="Отчество*" name="patronymic" required="">
+              
+                  <label for="phone"></label>
+                  <input type="phone" class="phone" placeholder="Телефон*" name="phone" required="">
+              <h2>По этому номеру телефона мы свяжемся с вами для подтверждения заказа</h2>
+
+                  <label for="email"></label>
+                  <input type="email" class="email" placeholder="Email*" name="email" required="">
+              <h2>На эту почту вам придет письмо с составом заказа, а так же трэк-номер для его отслеживания</h2>
+              <label for="checkbox">
+                <input type="checkbox" name="mailing list" value="mailing list">
+                Подписаться на рассылку новинок и акций
+              </label>
+              <h1>Способ оплаты</h1>
+              <fieldset style="border: 0">
+                
+                <div>
+                  <input type="radio" id="cash" name="drone" value="cash" checked="" style="box-sizing: border-box; width: 19px; height: 19px; vertical-align: middle; color: #976464; background: linear-gradient(102.48deg, #976464 -29.03%, #cfa5a5 97.75%); margin-right: 16px; display: inline; top: 1262px; left: 156px">
+                  <span for="cash" style="vertical-align: middle">Оплата при получении наличными или картой</span>
+                </div>
+            
+                <div>
+                  <input type="radio" id="card" name="drone" value="card" style="box-sizing: border-box; width: 19px; height: 19px; vertical-align: middle; color: #976464; background: linear-gradient(102.48deg, #976464 -29.03%, #cfa5a5 97.75%); margin-right: 16px; display: inline; top: 1217px; left: 156px">
+                  <span for="card" style="vertical-align: middle">Оплата банковской картой онлайн</span>
+                </div>
+              </fieldset>
+            </fieldset>
+              </form>
+              
+        </div>
+
+    </div>
+<script src="/Hobby.92961b70.js"></script></body>
+</html>
